@@ -1,0 +1,30 @@
+.info {
+  &__list {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+  }
+  &__list-img {
+    margin-bottom: 30px;
+    background: $info-color;
+    padding: 25px 102px;
+    border-radius: 4px;
+  }
+  &__list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  &__list-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}

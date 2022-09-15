@@ -1,0 +1,21 @@
+.about {
+  &__list {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__list-title {
+    padding: 27px;
+    position: relative;
+    margin-top: -70px;
+    background: #2f303acc;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
